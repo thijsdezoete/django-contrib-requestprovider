@@ -3,7 +3,7 @@ import os
 from setuptools import setup, find_packages
 
 setup(name='gadjo',
-    version=".".join(map(str, __import__("coffin").__version__)),
+    version=".".join(map(str, __import__("gadjo").__version__)),
     description='Request provider for Django',
     author='dontknow',
     author_email='thijsdezoete@gmail.com',
